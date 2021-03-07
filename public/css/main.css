@@ -1,0 +1,204 @@
+body {
+  font: 14px/2 "Roboto", sans-serif;
+  letter-spacing: 0.05em;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+p {
+  color: #8c97aa;
+  line-height: 28px;
+}
+.lead {
+  line-height: 34px;
+}
+.navbar-brand img {
+  height: 34px;
+  width: auto;
+}
+a {
+  color: #28b2f9;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: #222;
+  text-decoration: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: #fff;
+}
+.btn {
+  border-radius: 0;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  padding: 13px 30px;
+  text-transform: uppercase;
+}
+.btn-lg {
+  padding: 18px 34px;
+}
+.btn-primary {
+  background-image: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgba(4, 189, 228, 1) 0%,
+    rgba(2, 83, 185, 1) 100.2%
+  );
+  border-color: #28b2f9;
+}
+.weight-500 {
+  font-weight: 500;
+}
+.social-icons a {
+  margin-right: 15px;
+  color: #999;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 19px 20px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.social-icons a:hover {
+  color: #28b2f9;
+}
+.social-icons {
+  padding-top: 32px;
+}
+ul.kk {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+}
+ul.kk li {
+  padding-top: 10px;
+}
+ul.kk li a {
+  color: #fff;
+  font-weight: bold;
+}
+.footer-bg h6 {
+  color: #fff;
+}
+.hh {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(5, 98, 186, 0.5) 0%,
+    rgba(5, 98, 186, 0) 100%
+  );
+  z-index: 9;
+}
+.section-bg-one {
+  background-image: url(img/image-two.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.section-bg-two {
+  background-image: url(img/blue-snow.png);
+  background-repeat: repeat;
+}
+.section-bg-three {
+  background-image: url(img/image-three.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.nn img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+.text-top {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.pp {
+  background: url(img/papyrus.png) repeat;
+}
+.footer-bg {
+  background-color: #363535;
+}
+.small,
+small {
+  font-size: 90%;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+h1.slide-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 3vw;
+  font-weight: bold;
+  color: #fff;
+}
+p.slide-subtitle {
+  font-size: 1vw;
+  font-weight: 100;
+  margin-top: 0;
+  color: #fff;
+}
+.bb {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.gg img {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.gg img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+@media (max-width: 700px) {
+  .section-bg-one {
+    background: none;
+  }
+}
+@media (max-width: 998px) {
+  .navbar-collapse {
+    background: linear-gradient(
+      180deg,
+      rgba(5, 98, 186, 0.9) 0%,
+      rgba(5, 98, 186, 0.9) 100%
+    );
+    padding: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  h1.slide-title {
+    font-size: 38px !important;
+  }
+  p.slide-subtitle {
+    font-size: 20px !important;
+  }
+  .section-bg-one {
+    background-position: right 0 top -20px !important;
+  }
+  .bb {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
