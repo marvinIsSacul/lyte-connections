@@ -24,191 +24,338 @@
 
 <body>
 
-<div class="position-relative hh">
-	<a name="nav/home"></a>
-  <div class="container-fluid">
-    <div class="row py-1 px-5">
-      <div class="col-12 d-none d-md-block">
-        <div class="d-flex py-2 justify-content-end mx-4 align-items-center">
-          <div class="mr-5 d-flex align-items-center weight-500 text-white">
-			  <i class="lni lni-phone mr-3"></i>
-			  <a class="text-white" href="tel:+27763828683">+27 76 382 8683</a>
-		</div>
-          <div class="weight-500">
-				<i class="lni lni-envelope mr-3 text-white"></i>
-				<a href="mailto:Tuks17siabe@gmail.com" class="text-white">Tuks17siabe@gmail.com</a>
+<div id="app">
+
+	<div class="position-relative hh">
+		<a name="nav/home"></a>
+	<div class="container-fluid">
+		<div class="row py-1 px-5">
+			<div class="col-12 d-none d-md-block">
+				<div class="d-flex py-2 justify-content-end mx-4 align-items-center">
+				<div class="mr-5 d-flex align-items-center weight-500 text-white">
+					<i class="lni lni-phone mr-3"></i>
+					<a class="text-white" href="tel:+27763828683">+27 76 382 8683</a>
+				</div>
+				<div class="weight-500">
+						<i class="lni lni-envelope mr-3 text-white"></i>
+						<a href="mailto:Tuks17siabe@gmail.com" class="text-white">Tuks17siabe@gmail.com</a>
+					</div>
+				</div>
 			</div>
-        </div>
-      </div>
-      <div class="col-12 pb-5 mb-5">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand mr-lg-8" href="">
-				<img style="width: 180px; height: 65px; opacity: 1.0;" src="img/lyte-connections_s.png">
-			</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mr-md-5 py-4 py-lg-0 lead">
-              <li class="nav-item"> <a class="nav-link" href="#nav/about">About</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#nav/lte">LTE</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#nav/fibre">Fibre</a> </li>
-            </ul>
-            <a href="" class="btn btn-primary shadow-sm rounded-pill">Contact Us</a> </div>
-        </nav>
-      </div>
-    </div>
-  </div>
-</div>
+		<div class="col-12 pb-5 mb-5">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a class="navbar-brand mr-lg-8" href="">
+					<img style="width: 180px; height: 65px; opacity: 1.0;" src="img/lyte-connections_s.png">
+				</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto mr-md-5 py-4 py-lg-0 lead">
+				<li class="nav-item"> <a class="nav-link" href="#nav/about">About</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#nav/lte">LTE</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#nav/fibre">Fibre</a> </li>
+				</ul>
+				<a v-bind:href="'https://wa.me/27763828683?text=' + encodeURIComponent('Hi, I would like to know more about...')" class="btn btn-primary shadow-sm rounded-pill">Contact Us</a> </div>
+			</nav>
+		</div>
+		</div>
+	</div>
+	</div>
 
-<section class="main-banner">
-	
-	<!-- <div>
-		<h1 class="slide-title">Independent Secondary School of the Year </h1>
-		<p class="slide-subtitle">The Sunday Times Parent Power Guide 2020.</p>
-	</div> -->
-	
-</section>
+	<section class="main-banner">
+		
+		<!-- <div>
+			<h1 class="slide-title">Independent Secondary School of the Year </h1>
+			<p class="slide-subtitle">The Sunday Times Parent Power Guide 2020.</p>
+		</div> -->
+		
+	</section>
 
-<section class="section-light">
-	<div class="container py-5">
-    	<div class="row py-5 bb align-items-center">
-      		<div class="col-md-12">
-				<a name="nav/about"></a>
-        		<h2 class="font-weight-bold mb-4 text-center">
-					About
-				</h2>
-        		<div class="lead mb-5">
-					<p>
-						Lyte Connections was founded by Tuks in his one-bedroom flat in 2017, with the aim of providing South Africans with great Internet access.
-					</p>
+	<section class="section-light">
+		<div class="container py-5">
+			<div class="row py-5 bb align-items-center">
+				<div class="col-md-12">
+					<a name="nav/about"></a>
+					<h2 class="font-weight-bold mb-4 text-center">
+						About
+					</h2>
+					<div class="lead mb-5">
+						<p>
+							lyte-connections was founded by Victor Siabe in 2018.
+							It started off as a Computer Tech company, then later on grew to an ISP, with the aim of providing South Africans with great Internet access
+						</p>
+						
+						<p>
+							lyte-connections provides the following services: Fiber, LTE, Wireless, Voice, Managed IT and Computer components sales.
+						</p>
+					</div>
+					<div class="text-center">
+						<a href="#nav/lte" class="btn btn-primary rounded-pill">Get Internet !</a>
+					</div>
 					
-					<p>
-						Between 2017 and 2021, the company grew its product range to include hardware sales, personal & business connectivity, and website hosting.
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-light section-dark pt-5">
+		<div class="container py-5">
+			<div class="row">
+				<a name="nav/lte"></a>
+				<div class="col-12 text-center">
+					<h2 class="mb-2">LTE</h2>
+					<p class="lead mb-5">
+						Super fast, reliable, hassle free internet connectivity at your finger tips.
+						No Landline, No Contract, No Fuss.
 					</p>
 				</div>
-				<div class="text-center">
-					<a href="#nav/lte" class="btn btn-primary rounded-pill">Get Internet !</a>
+
+				<div class="container mt-5">
+					<div class="row">
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="LTE" name="10GB + 10GB" price="149"></price-comp>
+								<price-comp section="LTE" name="30GB + 30GB" price="279"></price-comp>
+								<price-comp section="LTE" name="50GB + 50GB" price="399"></price-comp>
+
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="LTE" name="60GB + 60GB" price="449"></price-comp>
+								<price-comp section="LTE" name="70GB + 70GB" price="499"></price-comp>
+								<price-comp section="LTE" name="90GB + 90GB" price="599"></price-comp>
+
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="LTE" name="100GB + 100GB" price="649"></price-comp>
+								<price-comp section="LTE" name="120GB + 120GB" price="799"></price-comp>
+								<price-comp section="LTE" name="150GB + 150GB" price="849"></price-comp>
+
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="LTE" name="220GB + 220GB" price="1099"></price-comp>
+								<price-comp section="LTE" name="300GB + 300GB" price="1499"></price-comp>
+								<price-comp section="LTE" name="500GB + 500GB" price="2299"></price-comp>
+
+							</div>
+						</div>
+					</div>
 				</div>
-        		
+
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-light section-light pt-5">
+		<div class="container py-5">
+			<div class="row">
+				<a name="nav/lte"></a>
+				<div class="col-12 text-center">
+					<h2 class="mb-2">Fibre</h2>
+					<p class="lead mb-5">
+						Fibre is <em>ultra fast broadband</em> ! It's by far the best way to connect to the Internet.
+					</p>
+				</div>
+
+				<div class="container mt-5">
+					<div class="row">
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="fibre" name="10Mbps / 10Mbps (Frogfoot)" price="699"></price-comp>
+								<price-comp section="fibre" name="10Mbps / 10Mbps (VUMA / SADV)" price="699"></price-comp>
+								<price-comp section="fibre" name="10Mbps / 10Mbps (Openserve)" price="699"></price-comp>
+								<price-comp section="fibre" name="10Mbps / 10Mbps (Metro Fibre)" price="789"></price-comp>
+
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="fibre" name="20Mbps / 20Mbps (Frogfoot)" price="899"></price-comp>
+								<price-comp section="fibre" name="20Mbps / 20Mbps (VUMA / SADV)" price="899"></price-comp>
+								<price-comp section="fibre" name="20Mbps / 20Mbps (Openserve)" price="899"></price-comp>
+								<price-comp section="fibre" name="20Mbps / 20Mbps (Metro Fibre)" price="999"></price-comp>
+
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="fibre" name="50Mbps / 50Mbps (Frogfoot)" price="999"></price-comp>
+								<price-comp section="fibre" name="50Mbps / 50Mbps (VUMA / SADV)" price="999"></price-comp>
+								<price-comp section="fibre" name="50Mbps / 50Mbps (Openserve)" price="999"></price-comp>
+								<price-comp section="fibre" name="50Mbps / 50Mbps (Metro Fibre)" price="1199"></price-comp>
+
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="fibre" name="100Mbps / 100Mbps (Frogfoot)" price="1149"></price-comp>
+								<price-comp section="fibre" name="100Mbps / 100Mbps (VUMA / SADV)" price="1299"></price-comp>
+								<price-comp section="fibre" name="100Mbps / 100Mbps (Openserve)" price="1299"></price-comp>
+								<price-comp section="fibre" name="100Mbps / 100Mbps (Metro Fibre)" price="1599"></price-comp>
+
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="fibre" name="200Mbps / 200Mbps (Frogfoot)" price="1449"></price-comp>
+								<price-comp section="fibre" name="200Mbps / 200Mbps (VUMA / SADV)" price="1699"></price-comp>
+								<price-comp section="fibre" name="200Mbps / 200Mbps (Openserve)" price="1699"></price-comp>
+								<price-comp section="fibre" name="200Mbps / 200Mbps (Metro Fibre)" price="1799"></price-comp>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-light section-dark pt-5">
+		<div class="container py-5">
+			<div class="row">
+				<a name="nav/wireless"></a>
+				<div class="col-12 text-center">
+					<h2 class="mb-2">Wireless</h2>
+					<p class="lead mb-5">
+						Wireless Internet connectivity offers you the freedom to enjoy all your favorite platforms without the stress of running out of data.
+					</p>
+				</div>
+
+				<div class="container mt-5">
+					<div class="row">
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="Wireless" name="2Mbps + 2Mbps" price="299"></price-comp>
+								<price-comp section="Wireless" name="4Mbps + 4Mbps" price="450"></price-comp>
+								<price-comp section="Wireless" name="6Mbps + 6Mbps" price="599"></price-comp>
+
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="card-deck">
+								
+								<price-comp section="Wireless" name="10Mbps + 10Mbps" price="850"></price-comp>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<div class="footer-bg">
+		<div class="container py-5">
+			<div class="row py-5">
+			<div class="col-lg-8 col-md-12">
+				<div class="row text-white">
+				<div class="col-12">
+					<h6 class="text-white-50 small pt-5 pt-sm-0">FOLLOW US</h6>
+					<div class="social-icons">
+						<a href="#"><i class="lni lni-facebook-filled"></i></a>
+						<a href="#"><i class="lni lni-twitter-filled"></i></a>
+						<a href="#"><i class="lni lni-instagram-filled"></i></a>
+					</div>
+				</div>
+				</div>
+				<div class="row pt-5 mt-4">
+				<div class="col-sm-3 col-12">
+					<h6 class="text-white-50 small">INTERNET</h6>
+					<ul class="kk">
+						<li><a href="#nav/lte">LTE</a></li>
+						<li><a href="#nav/fibre">Fibre</a></li>
+						<li><a href="#nav/wireless">Wireless</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3 col-12">
+					<h6 class="text-white-50 small pt-5 pt-sm-0">CONTACT US</h6>
+					<ul class="kk">
+						<li><a href="#nav/about">About Us</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-12">
+					<h6 class="text-white-50 small pt-5 pt-sm-0">REGISTRATION INFO</h6>
+					<ul class="kk">
+						<li class="text-white">Company Reg. Number: 2018/ 038413/ 07</li>
+						<li class="text-white">Company Name: TUKS trading as lyte-connections</li>
+					</ul>
+				</div>
+				</div>
+			</div>
 			</div>
 		</div>
 	</div>
-</section>
 
-<section class="bg-light section-dark pt-5">
-  <div class="container py-5">
-    <div class="row">
-		<a name="nav/lte"></a>
-      	<div class="col-12 text-center">
-        	<h2 class="mb-2">LTE</h2>
-        	<p class="lead mb-5">
-				Super fast, reliable, hassle free internet connectivity at your finger tips.
-				No Landline, No Contract, No Fuss.
-			</p>
-      	</div>
-
-		  <div class="container mt-5">
-			<div class="row">
-			  <div class="col-12">
-				<div class="card-deck">
-					
-				  <div class="card shadow-sm">
-					<div class="card-header text-center bg-transparent border-0">
-					  <h6 class="mb-3 font-weight-bold mt-4">10GB + 10GB</h6>
-					  <div class="d-flex align-items-baseline justify-content-center mb-3">
-						<h3 class="display-4 font-weight-bold">R149</h3>
-						&nbsp;
-						<p class="text-muted lead small"> / month</p>
-					  </div>
-					  <div class="bg-primary mm"></div>
-					</div>
-					<div class="card-body">
-					</div>
-					<div class="card-footer py-5 text-center bg-transparent border-0"> <a href="#lte/10GB+10GB" class="btn btn-primary btn-lg rounded-pill shadow-lg">Subscribe</a> </div>
-				  </div>
-				  
-				  <div class="card shadow-sm">
-					<div class="card-header text-center bg-transparent border-0">
-					  <h6 class="mb-3 font-weight-bold mt-4">30GB + 30GB</h6>
-					  <div class="d-flex align-items-baseline justify-content-center mb-3">
-						<h3 class="display-4 font-weight-bold">R279</h3>
-						&nbsp;
-						<p class="text-muted lead small"> / month</p>
-					  </div>
-					  <div class="bg-primary mm"></div>
-					</div>
-					<div class="card-body">
-					</div>
-					<div class="card-footer py-5 text-center bg-transparent border-0"> <a href="#lte/30GB+30GB" class="btn btn-primary btn-lg rounded-pill shadow-lg">Subscribe</a> </div>
-				  </div>
-
-				  <div class="card shadow-sm">
-					<div class="card-header text-center bg-transparent border-0">
-					  <h6 class="mb-3 font-weight-bold mt-4">50GB + 50GB</h6>
-					  <div class="d-flex align-items-baseline justify-content-center mb-3">
-						<h3 class="display-4 font-weight-bold">R399</h3>
-						&nbsp;
-						<p class="text-muted lead small"> / month</p>
-					  </div>
-					  <div class="bg-primary mm"></div>
-					</div>
-					<div class="card-body">
-					</div>
-					<div class="card-footer py-5 text-center bg-transparent border-0"> <a href="#lte/50GB+50GB" class="btn btn-primary btn-lg rounded-pill shadow-lg">Subscribe</a> </div>
-				  </div>
-
-				</div>
-			  </div>
-			</div>
-		  </div>
-
-    </div>
-  </div>
-
- 
-</section>
-
-<div class="footer-bg">
-  <div class="container py-5">
-    <div class="row py-5">
-      <div class="col-lg-8 col-md-12">
-        <div class="row text-white">
-          <div class="col-12">
-            <h6 class="text-white-50 small pt-5 pt-sm-0">FOLLOW US</h6>
-            <div class="social-icons">
-				<a href="#"><i class="lni lni-facebook-filled"></i></a>
-				<a href="#"><i class="lni lni-twitter-filled"></i></a>
-				<a href="#"><i class="lni lni-instagram-filled"></i></a>
-			</div>
-          </div>
-        </div>
-        <div class="row pt-5 mt-4">
-          <div class="col-sm-6 col-12">
-            <h6 class="text-white-50 small">INTERNET</h6>
-            <ul class="kk">
-              <li><a href="#nav/lte">LTE</a></li>
-              <li><a href="nav/fibre">Fibre</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-6 col-12">
-            <h6 class="text-white-50 small pt-5 pt-sm-0">CONTACT US</h6>
-            <ul class="kk">
-              <li><a href="#nav/about">About Us</a></li>
-              <li><a href="">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
-<!-- Optional JavaScript --> 
-<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script> 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script> 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
 <script>
 
+	Vue.component('price-comp', {
+		props: ['section', 'price', 'name'],
+		template: `
+		<div class="card shadow-sm">
+			<div class="card-header text-center bg-transparent border-0">
+			<h6 class="mb-3 font-weight-bold mt-4">{{ name }}</h6>
+			<div class="d-flex align-items-baseline justify-content-center mb-3">
+				<h3 class="display-4 font-weight-bold">R{{ price }}</h3>
+				&nbsp;
+				<p class="text-muted lead small"> / month</p>
+			</div>
+			<div class="bg-primary mm"></div>
+			</div>
+			<div class="card-body">
+			</div>
+			<div class="card-footer py-5 text-center bg-transparent border-0">
+				<a v-bind:href="'https://wa.me/27763828683?text=' + encodeURIComponent('Hi, I would like to purchase the ' + section + ' ' + name + '...')"
+				 class="btn btn-primary btn-lg rounded-pill shadow-lg">
+					Purchase
+				</a>
+			</div>
+		</div>
+		`
+	})
+
+	Vue.component('product-section', {
+		props: ['title', 'subtitle'],
+		template: `
+			Kagiso Marvin Molekwa
+		`
+	})
+
+	const app = new Vue({
+		el: "#app"
+	})
 
 </script>
 </body>
