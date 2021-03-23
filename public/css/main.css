@@ -176,6 +176,10 @@ p.slide-subtitle {
   .section-bg-one {
     background: none;
   }
+
+  .img-voice {
+    max-width: 256px;
+  }
 }
 @media (max-width: 998px) {
   .navbar-collapse {
