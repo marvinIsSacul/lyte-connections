@@ -54,7 +54,7 @@
 		</div>
 	</header>
 
-	<section id="sec-about" class="section-light">
+	<section id="sec-about" data-page class="section-light">
 		<div class="container py-5">
 			<div class="row py-5 bb align-items-center">
 				<div class="col-md-12">
@@ -81,7 +81,7 @@
 		</div>
 	</section>
 
-	<section id="sec-voice" class="section-dark">
+	<section id="sec-voice" data-page class="section-dark">
 		<div class="container py-5">
 			<div class="row py-5 bb align-items-center">
 				<div class="col-md-12">
@@ -118,7 +118,7 @@
 		</div>
 	</section>
 
-	<section id="sec-lte" class="bg-light section-light pt-5">
+	<section id="sec-lte" data-page class="bg-light section-light pt-5">
 		<div class="container py-5">
 			<div class="row">
 				<a name="nav/lte"></a>
@@ -178,7 +178,7 @@
 		</div>
 	</section>
 
-	<section id="sec-fibre" class="bg-light section-dark pt-5">
+	<section id="sec-fibre" data-page class="bg-light section-dark pt-5">
 		<div class="container py-5">
 			<div class="row">
 				<a name="nav/fibre"></a>
@@ -286,7 +286,7 @@
 		</div>
 	</section>
 
-	<section id="sec-wireless" class="bg-light section-light pt-5">
+	<section id="sec-wireless" data-page class="bg-light section-light pt-5">
 		<div class="container py-5">
 			<div class="row">
 				<a name="nav/wireless"></a>
@@ -422,6 +422,20 @@
 
 		}
 	})
+
+	// This function simulates a Multi Page App - because that's what the client wants.
+	function simulateMpa() {
+		const section = location.href.split('#')[1].split('/')[1]
+		const sectionId = 'sec-' + section
+
+		jQuery('section[data-page]').hide()
+		jQuery(`section[id="${sectionId}"`).show()
+		jQuery(window).scrollTop(1)
+	}
+
+	window.onhashchange = simulateMpa
+
+	simulateMpa()
 
 </script>
 </body>
